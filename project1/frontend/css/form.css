@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../img.avif");
+    background-image: url("../image.jpg");
     background-size: cover;
     background-position: center;
     font-family: 'roboto',sans-serif;
