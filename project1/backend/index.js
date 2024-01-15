@@ -10,7 +10,7 @@ const PORT=process.env.PORT_FOR_RUNNING
 const path=require("path")
 // app.use(body_Parser({extended:true}))
 app.use(express.json())
-app.use(cors())
+app.use(cors()) 
 app.use(router)
 app.use(express.static(path.join(__dirname,"../frontend")))
 app.get('/',(req,res)=>{

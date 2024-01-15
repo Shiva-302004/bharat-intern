@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/header.png");
+    background-size: cover;
+    background-position: center;
+    font-family: 'roboto',sans-serif;
+}
+.form{
+    margin-top: 10vh;
+    width: 400px;
+    height: auto;
+    color: white;
+    font-family: 'roboto' ,sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 7px red;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 20px;
+    /* margin-left: 30%; */
+    opacity: 0;
+    margin-top: 4vh;
+}
+input{
+    width:80%;
+    height: 35px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: transparent;
+    border:1px solid red;
+    color:#fff;
+    padding: 15px;
+    transition: .5s;
+    text-transform: capitalize;
+    opacity: 0;
+}
+input::placeholder{
+    color: #fff;
+}
+input:focus{
+    background-color: #f78d8d;
+    color: black;
+}
+input:focus::placeholder{
+    color:black
+}
+.submit{
+    background-color: rgb(70, 73, 75);
+    color: black;
+    padding: 3px;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    position: relative;
+    text-align: center;
+    /* margin-left: 30%; */
+    opacity: 0;
+}
+.submit:hover{
+    background:transparent;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px red;
+}
+.link{
+    text-decoration: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: aquamarine;
+}
+.logo{
+height: 30px;
+margin: 20px;
+}
+.logodiv{
+background-color: black;
+width: 100%;position: absolute;
+top: 0;
+height: 60px;
+}
+.alertbox{
+    position: absolute;
+    top:-100%;
+    margin-bottom:5% ;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    max-width: 90%;
+    background-color: rgb(255,119,119);
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 10px;
+}

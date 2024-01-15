@@ -1,0 +1,81 @@
+.blogs ,.articles{
+    position :relative;
+    height: fit-content;
+    padding-bottom: 0;
+}
+.articles,.titles{
+    min-height: auto;
+    height: fit-content;
+    padding: 10px 0px;
+}
+.blogs{
+    margin-top: 30px;
+}
+
+.articles {
+    margin: 0px 30px ;
+    color: #2d2d2d;
+}
+.publisheat{
+    margin-top: 20px;
+}
+.blogs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.titles{
+    text-align: center;
+}
+.articles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 30px;
+    margin-top: 45px;
+    margin-right: 30vw;
+}
+.publisheat{
+    margin-top: -5px;
+}
+.articles img{
+    width: 40vw;
+    margin-top: 20px;
+    text-align: center;
+}
+.articles h1{
+    font-size: 30px;
+    color: #7e7d7d;
+}
+.articles h2{
+    margin-top: 10px;
+    color: #7e7d7d;
+}
+.articles h2{
+    margin-top: 10px;
+    color: #7e7d7d;
+}
+.articles h3{
+    margin-top: 10px;
+    color: #7e7d7d;
+}
+.articles h4{
+    margin-top: 10px;
+    color: #7e7d7d;
+}
+.articles h5{
+    margin-top: 10px;
+    color: #7e7d7d;
+}
+.articles h6{
+    margin-top: 20px;
+    color: #7e7d7d;
+}

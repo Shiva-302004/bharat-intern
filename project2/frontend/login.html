@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="new">
+            <img src="./img/logo.png" alt="">
+            <ul class="links-containers">
+                <li class="link-item"><a href="/" class="link">home</a></li>
+                <!-- <li class="link-item"><a href="/editor" class="link">editor</a></li> -->
+                <!-- <li class="link-item"><a href="/user/myblogs" class="link">myblogs</a></li> -->
+            </ul>
+        </div>
+        <div>
+            
+            <ul class="links-container">
+                <li class="link-item"><a href="/loginuser" class="links lki" id="lki">login</a></li>
+                <li class="link-item"><a href="/signinuser" class="links lki hi" id="lki">signup</a></li>
+                <li class="link-item"><button  class="links logout" id="logout">logout</button></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="alertbox">
+        <p class="alert">msg</p>
+    </div>
+    <div class="form">
+        <h1 class="heading">login</h1>
+        <input type="email" placeholder="email" autocomplete="off" class="email"required>
+        <input type="password" placeholder="password" autocomplete="off" class="password"required>
+        <button class="submit">log In</button>
+        <a href="/signinuser" class="link">don't have an account</a>
+    </div>
+    <script src="./js/form.js"></script>
+    <script src="./js/form.js"></script>
+</body>
+</html>

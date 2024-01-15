@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/editor.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Blog-Edit</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="new">
+            <img src="./img/logo.png" alt="">
+            <ul class="links-containers">
+                <li class="link-item"><a href="/" class="link">home</a></li>
+                <li class="link-item"><a href="/editor" class="link">editor</a></li>
+                <!-- <li class="link-item"><a href="/user/myblogs" class="link">myblogs</a></li> -->
+            </ul>
+        </div>
+        <div>
+            
+            <ul class="links-container">
+                <li class="link-item"><a href="/loginuser" class="links lki" id="lki">login</a></li>
+                <li class="link-item"><a href="/signinuser" class="links lki hi" id="lki">signup</a></li>
+                <li class="link-item"><button  class="links logout" id="logout">logout</button></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="banner">
+        <input type="file" accept="image/*" id="banner-upload" hidden>
+        <label for="banner-upload" class="banner-upload-btn"><img src="./img/upload.png" alt=""></label>
+    </div>
+    <div class="blog-options">
+        <button class="btn dark publish-btn">publish</button>
+        <input type="file" accept="image/*" id="image-upload" hidden>
+        <label for="image-upload" class="btn grey upload-btn">upload</label>
+    </div>
+    <div class="blog">
+        <textarea name="blog" type="text" id="title" class="title" placeholder="blog title..."  rows="2"></textarea>
+        <textarea name="blog" type="text" id="title" class="article" placeholder="start writting here ..."  rows="2"></textarea>
+    </div>
+    <script src="./js/editor.js"></script>
+    <script src="./js/home.js"></script>
+</body>
+</html>
