@@ -1,4 +1,4 @@
-const mongoose=require("mongoose")
+const mongoose= require("mongoose")
 const clc=require("cli-color")
 const dotenv=require("dotenv")
 dotenv.config()
